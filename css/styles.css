@@ -154,6 +154,10 @@ body{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+     url(../images/img-hero.jpg);
+     background-size: cover;
+     max-width: 1600px;
 }
 
 .hero-text {
@@ -224,6 +228,9 @@ letter-spacing: 0.03em;
 color: var(--text-color);
 }
 
+
+
+
 /*----------------------WORK-------------------*/
 .work{
 padding-top: 0;
@@ -246,6 +253,7 @@ padding-top: 0;
 .work-item + .work-item{
     margin-left: 30px;
 }
+
 
 
 /*----------------------TEAM-------------------*/
@@ -305,6 +313,79 @@ margin-left: 30px;
     margin-bottom: 30px;
 }
 
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-soc-item + .team-soc-item{
+    margin-left: 10px;
+}
+
+.team-soc-link {
+    width: 44px;
+    height: 44px;
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+}
+
+.team-soc-icon {
+    fill: currentColor;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: var(--focus-color);
+    color: #FFFFFF;
+}
+
+/*--------------------CLIENTS-----------------------------*/
+.clients-head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.clients-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.clients-soc-link {
+    width: 170px;
+    height: 92px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.clients-soc-link+.clients-soc-link {
+    margin-left: 30px;
+}
+
+.clients-soc-icon {
+    fill: currentColor;
+}
+
+.clients-soc-link:hover,
+.clients-soc-link:focus {
+    background-color: #FFFFFF;
+    color: var(--focus-color);
+}
 
 /*----------------------FOOTER-------------------*/
 
