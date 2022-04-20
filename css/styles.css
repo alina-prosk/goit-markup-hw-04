@@ -148,6 +148,13 @@ body{
     color:var(--focus-color);
 }
 
+/*.navigation-icon{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
 
 .hero {
     background-color: var(--main-title-color);
@@ -228,8 +235,20 @@ letter-spacing: 0.03em;
 color: var(--text-color);
 }
 
+.icon{
+    width: 270px;
+    height: 120px;
+    background-color:#F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
-
+.about-soc-icon{
+    display: flex;
+}
 
 /*----------------------WORK-------------------*/
 .work{
@@ -268,6 +287,7 @@ padding-top: 0;
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
 }
 
 .profesional-img{
@@ -310,13 +330,18 @@ margin-left: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
-    margin-bottom: 30px;
+    padding-bottom: 16px;
 }
 
 .team-soc-list {
     display: flex;
     justify-content: center;
 }
+
+/*.team-soc {
+    display: flex;
+    justify-content: center;
+}*/
 
 .team-soc-item + .team-soc-item{
     margin-left: 10px;
@@ -371,11 +396,10 @@ margin-left: 30px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
-}
-
-.clients-soc-link+.clients-soc-link {
     margin-left: 30px;
 }
+
+
 
 .clients-soc-icon {
     fill: currentColor;
